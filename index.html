@@ -1,2 +1,106 @@
-<h1>This is my home page!</h1>
-<div> My link-in-bio</div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+    <style>
+      html{
+        min-height: 100%;
+      }
+      /* {
+        border: 1px red dashed;
+      }*/
+      body {
+      min-height: 100%;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background: radial-gradient(circle at 50% 50%, #003f5b, #2b4b7d, #5f5195, #98509d, #cc4c91, #f25375, #ff6f4e, #ff9913);
+      color: rgba(255, 255, 255, 1.0);
+      font-family:"Roboto";
+      }
+      a {
+      color: rgb(237, 235, 235);
+      text-decoration: none;
+      }
+      .avatar-image{
+      width: 128px;
+      height: 128px;
+      border-radius: 128px;
+      border-color: black;
+      border-style: solid;
+      }
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+      .item {
+        background-color: rgba(128, 114, 114, 0.8);
+        display: flex;
+        align-items: center;
+      }
+      .main-container {
+        max-width: 640px;
+        margin: auto;
+      }
+      .image-row{
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .name-row {
+        margin-bottom: 30px;
+        text-align: center;
+        font-family: "Lora";
+        font-size: 24px;
+        font-weight: 900;
+      }
+      .social-icons-row {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+      }
+      .item {
+        margin-bottom: 20px;
+        border-radius: 1000px;
+        padding: 5px;
+        padding-right: 53px;
+        box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
+      }
+      .link-text {
+        text-align: center;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+    <body>
+    <div class="main-container">
+      <div class="image-row">
+        <img class="avatar-image" src="https://media.licdn.com/dms/image/v2/D5603AQEUiWosygpG2Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731390758249?e=1748476800&v=beta&t=XTLR4mMJIxQ0J78qUfl3wnf0CUhQHD7Eu_X0KCKCgzI" alt="Zheng Wei headshot">
+      </div>
+      <div class="name-row">
+        Chan Zheng Wei
+      </div>
+      <div class="social-icons-row">
+        <a href="https://github.com/zdubz96/" target="_blank"><i class="fa-brands fa-github"></i>
+        </a>
+  
+        <a href="https://www.linkedin.com/in/chanzhengwei/" target="_blank"> <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+      <div class="links-row">
+        <div class="item">
+          <img class="thumbnail" src="https://yt3.googleusercontent.com/Kav91g_AAN2VLDdfsrzUFYRdgUriXfdJX1NB5Fw_3e4aViFbcq9XfbXA6WmSeqfYa7Hgr8Ua2g=s900-c-k-c0x00ffffff-no-rj">
+  
+          <a class="link-text" target="_blank" href="https://www.youtube.com/@TeamCoco">
+            Team Coco
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
